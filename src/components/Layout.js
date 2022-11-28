@@ -1,6 +1,5 @@
 import React from 'react'
-import { Drawer, 
-         Typography,
+import { Drawer,
          List,
          ListItem,
          ListItemIcon,
@@ -22,11 +21,6 @@ const MainDrawer = styled(Drawer)`
   width: 230px;
 `;
 
-const DrawerTitle = styled(Typography)`
-  height: 60px;
-  lineHeight: 30px;
-`;
-
 const MainAppBar = styled(AppBar)`
   width: calc(100% - 230px);
 `;
@@ -45,7 +39,7 @@ export default function Layout({ children }) {
       {/* AppBar */}
       <MainAppBar elevation={0}>
         <Toolbar>
-          <Link to={"/"} >
+          <Link to={"/ramos"} >
             <img src={Logo} alt="logo" height="64px" padding-right="5px" />
           </Link>
           <Space/>

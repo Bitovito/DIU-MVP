@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Mate(){
+export default function Ajustes(){
     return(
         <div>
             Ajustes
